@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+.about {
+  background: white;
+  color: #333;
+  padding: 50px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+footer {
+  padding: 20px;
+}
